@@ -105,8 +105,8 @@
       </dependency>
 
       
-	<!-- 
-      Logback 얘를 커몬 로깅으로 인식해야함
+	
+     <!--  Logback 얘를 커몬 로깅으로 인식해야함 -->
       <dependency>
          <groupId>org.slf4j</groupId>
          <artifactId>jcl-over-slf4j</artifactId>
@@ -118,7 +118,7 @@
          <artifactId>logback-classic</artifactId>
          <version>${logback.version}</version>
       </dependency> 
-      -->
+     
 		<!-- jackson -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
